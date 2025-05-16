@@ -38,3 +38,15 @@ Comando para generar
 ```bash
 nest g s users
 ```
+
+# Pipes
+Funcion que procesa algo y retorna algo alterado
+```bash
+nest g pipe hello/pipes/validateuser
+```
+
+# Guards
+Funcion que protege a otra funcion siempre y cuando cumpla una logica
+```bash
+nest g guard hello/guards/auth
+```
